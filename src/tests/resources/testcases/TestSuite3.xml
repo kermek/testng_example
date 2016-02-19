@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Test Suite">
+
+    <test name = "Test_1" preserve-order="true" >
+        <classes>
+            <class name="temp.Test_1">
+                <methods>
+                    <include name = "test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Test_3" preserve-order="true">
+        <classes>
+            <class name="temp.Test_3">
+                <methods>
+                    <include name = "test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

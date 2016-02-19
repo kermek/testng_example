@@ -1,0 +1,1 @@
+This is an example of TestNG suite for testing multithread parameters
